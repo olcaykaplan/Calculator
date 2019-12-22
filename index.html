@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   
+</head>
+<body>
+
+  
+        <div id="calulator">
+            <div class="row">
+             <div class="col-2 offset-4 result offset-6">
+                 
+             </div> 
+            </div>
+            <div class="row">
+            <div class="col-7 offset-4 operation">
+
+            </div>
+            </div>
+           
+            <div class="row calculater-content"> 
+                <div class="col-1 offset-5 numbers">
+                    
+                        <span data-value="7">7</span> 
+                        <span data-value="8">8</span>
+                        <span data-value="9">9</span>
+                        <br>
+                        <span data-value="4">4</span> 
+                        <span data-value="5">5</span>
+                        <span data-value="6">6</span>
+                        <br>
+                       <span data-value="1">1</span> 
+                       <span data-value="2">2</span>
+                       <span data-value="3">3</span>
+                       <br>
+                       <span  id="plus-minus">&#177;</span> 
+                       <!-- toggle should be here -->
+                       <span data-value="0">0</span>
+                       <span id="point">.</span>
+                       <br>
+
+                </div>
+                <div class="col-1 functions">
+                    <span onclick="sum('sum')" class="glyphicon glyphicon-plus"></span> 
+                    
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+</body>
+</html>
