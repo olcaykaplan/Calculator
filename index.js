@@ -10,6 +10,7 @@ const countEl = document.querySelector(".operation");
 //debugger;
 const sum = (operation)=>{
   
+  
   switch (operation){
     case 'sum':
       console.log(count+ 'it\'s tpye is '+typeof count);
